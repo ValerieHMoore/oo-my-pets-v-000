@@ -84,7 +84,7 @@ class Owner
     
     @pets.each do |k, v|
       case k
-      
+      when :fishes
       v.length
   end
   
