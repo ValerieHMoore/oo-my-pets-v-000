@@ -83,6 +83,7 @@ class Owner
     count_dogs = 0
     
     @pets.each do |k, v|
+      case k
       
       v.length
   end
