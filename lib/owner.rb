@@ -1,6 +1,7 @@
 require 'pry'
 
 require_relative 'fish'
+require_relative 'cat'
 
 class Owner
   attr_accessor :name, :fishes, :dogs, :cats, :pets
