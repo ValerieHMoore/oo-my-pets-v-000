@@ -93,6 +93,7 @@ class Owner
       else
       end
     end
+    "I have #{count_fishes} fish, 
   end
   
 end
