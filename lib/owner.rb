@@ -35,7 +35,7 @@ class Owner
   end
 
   def buy_fish(name)
-     @fishes << @fish
+     @fishes << name
   end
   
 end
