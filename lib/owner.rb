@@ -78,6 +78,10 @@ class Owner
   end
   
   def list_pets
+    count_fishes = 0
+    count_cats = 0
+    count_dogs = 0
+    
     @pets.each do |k, v|
       v.each do |pet|
   end
