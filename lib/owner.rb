@@ -73,6 +73,7 @@ class Owner
       @fishes.clear
       @dogs.clear
       @cats.clear
+      @pets = {}
     end
   end
   
