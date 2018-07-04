@@ -1,5 +1,7 @@
 require 'pry'
 
+require_relative 'fish'
+
 class Owner
   attr_accessor :name, :fishes, :dogs, :cats, :pets
   attr_reader :species
@@ -35,7 +37,7 @@ class Owner
   end
 
   def buy_fish(name)
-     @fishes << Fish.new
+     @fishes << Fish.new(name)
   end
   
 end
