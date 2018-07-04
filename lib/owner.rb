@@ -70,6 +70,9 @@ class Owner
       v.each do |pet|
         pet.mood = "nervous"
       end
+      @fishes.clear
+      @dogs.clear
+      @cats = []
     end
   end
   
