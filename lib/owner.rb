@@ -72,7 +72,7 @@ class Owner
       end
       @fishes.clear
       @dogs.clear
-      @cats = []
+      @cats.clear
     end
   end
   
