@@ -86,6 +86,10 @@ class Owner
       case k
       when :fishes
         count_fishes = v.length
+      when :cats
+        count_cats = v.length
+      when :dogs
+        count_dogs = v.length
   end
   
 end
