@@ -14,7 +14,7 @@ class Owner
     @fishes = :fishes => []
     @dogs = :dogs => []
     @cats = :cats => []
-    @pets = @fishes, @dogs, @cats
+    @pets = {@fishes, @dogs, @cats}
     @@all << self
   end
   
