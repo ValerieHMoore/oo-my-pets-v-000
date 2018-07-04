@@ -93,7 +93,7 @@ class Owner
       else
       end
     end
-    "I have #{count_fishes} fish, 
+    "I have #{count_fishes} fish, #{count_dogs} dog(s), and #{count_cats} cat(s)"  
   end
   
 end
