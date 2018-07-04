@@ -91,6 +91,7 @@ class Owner
       when :dogs
         count_dogs = v.length
       else
+      end
     end
   end
   
