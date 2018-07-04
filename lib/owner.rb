@@ -90,6 +90,8 @@ class Owner
         count_cats = v.length
       when :dogs
         count_dogs = v.length
+      else
+    end
   end
   
 end
