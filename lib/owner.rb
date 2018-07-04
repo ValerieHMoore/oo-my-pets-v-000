@@ -41,4 +41,8 @@ class Owner
      @fishes << Fish.new(name)
   end
   
+  def buy_cat(name)
+     @cats << Cat.new(name)
+  end
+  
 end
